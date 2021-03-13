@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.1",
+    "bs-platform": "^9.0.2"
+  }
+}
